@@ -206,6 +206,8 @@ nav ul li a {
 /* The element to apply the animation to */
 
 .FULL-PAGE img {
+    margin-left: 25%;
+    margin-right: 25%;
     box-shadow: 10px 10px;
     background-color: aqua;
     background-image: url("../Images/download.jpg");
@@ -336,12 +338,19 @@ label #cancel {
 
 @media (max-width: 944px) {
     .FULL-PAGE img {
+        margin-left: 25%;
+        margin-right: 25%;
+        box-shadow: 10px 10px;
+        background-color: aqua;
+        background-image: url("../Images/download.jpg");
+        box-shadow: brown;
         width: 30%;
         align-items: center;
         color: #002E63;
-        border: 5px rgb(0, 0, 0);
+        border: 7px double rgb(5, 5, 5);
         border-radius: 50%;
-        left: 10%;
+        right: 30%;
+        border-color: black;
     }
     nav img {
         left: 8%;

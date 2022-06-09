@@ -1,3 +1,9 @@
+body {
+    background-color: #161616;
+    height: 100vh;
+    padding: auto;
+}
+
 .loader_bg {
     position: fixed;
     z-index: 999999;
@@ -153,12 +159,6 @@
     color: rgb(255, 0, 0);
     position: absolute;
     left: 16.5%;
-}
-
-body {
-    background-color: #161616;
-    height: 100vh;
-    padding: auto;
 }
 
 .FULL-PAGE Text {

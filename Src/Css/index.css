@@ -156,8 +156,9 @@
 }
 
 body {
-    background-color: #002E63;
+    background-color: #161616;
     height: 100vh;
+    padding: auto;
 }
 
 .FULL-PAGE Text {
@@ -167,7 +168,7 @@ body {
 
 
 /*background: rgb(87, 81, 81) url('../Images/download (1).jpg');
-}
+}#002E63
 background-color: #3c495c;
 
 /*nav {
@@ -267,7 +268,7 @@ nav ul li a {
 
 nav {
     height: 80px;
-    background-color: #1d6bc4;
+    background-color: #232323;
 }
 
 nav ul {

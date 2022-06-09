@@ -338,7 +338,8 @@ label #cancel {
 
 @media (max-width: 944px) {
     .FULL-PAGE img {
-        margin-left: 25%;
+        margin-top: 5%;
+        margin-left: 35%;
         margin-right: 25%;
         box-shadow: 10px 10px;
         background-color: aqua;

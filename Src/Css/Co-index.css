@@ -43,7 +43,6 @@ body {
     width: 100px;
     text-align: center;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;

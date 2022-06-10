@@ -1,5 +1,5 @@
-body {
-    background-color: #161616;
+#body {
+    background-color: white;
     height: 100vh;
     padding: auto;
 }
@@ -91,6 +91,64 @@ body {
     animation-duration: 2s;
     animation-name: example;
     animation-iteration-count: 10;*/
+
+.Night {
+    position: static;
+    background-color: #f731cc;
+    border: none;
+    font-size: auto;
+    color: #ffffff;
+    padding: auto;
+    margin-left: 7%;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Night i {
+    width: 10%;
+    style: "font-size:24px";
+    font-size: 20px;
+}
+
+.Night:active {
+    width: 0;
+    background-color: green;
+}
+
+.Night:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+}
+
+.Night:after {
+    content: "";
+    background: #0ff;
+    background-color: #0ff;
+    display: block;
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 220%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.Night:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+    background-color: #0ff;
+}
 
 .Btn1 {
     position: static;

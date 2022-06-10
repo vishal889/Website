@@ -7,12 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Src/Css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Src/Css/Button/button.css">
     <title>Vishal</title>
+    <style>
 
+    </style>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
-<body>
+<body id="body">
     <div class="loader_bg">
         <div class="loader">
 
@@ -30,7 +34,57 @@
             <li> <a href="https://github.com/vishal889">Github</a> </li>
             <li> <a href="./Src/Contact/Contact.html">Contact</a> </li>
         </ul>
+        <ul2>
+            <div class="dropdown">
+                <button class="dropbtn">colour<i class="fa fa-caret-down"></i></button>
+
+                <div class="dropdown-content">
+
+                    <button onclick="myFunction2()" class="Night1"><i class="fa fa-sun-o"></i></button>
+                    <script>
+                        function myFunction2() {
+                            document.getElementById("body").style.backgroundColor = "#161616"
+                        }
+                    </script>
+
+                    <button onclick="myFunction()" class="Night2"><i class="fa fa-moon"></i></button>
+                    <script>
+                        function myFunction() {
+                            document.getElementById("body").style.backgroundColor('green')
+                        }
+                    </script>
+
+
+
+                </div>
+            </div>
+            </div>
+
+        </ul2>
     </nav>
+    <div>
+
+
+
+
+        <button hidden="hidden" onclick="myFunction()" class="Night2"></button>
+        <script>
+            function myFunction() {
+                document.getElementById("body").style.backgroundColor = "#161616"
+            }
+        </script>
+
+        <button hidden="hidden" onclick="myFunction2() " class="Night1"></button>
+        <script>
+            function myFunction2() {
+                document.getElementById("body").style.backgroundColor = "white"
+            }
+        </script>
+        <!--<input type="button" onclick="show_confirm()" value="Show confirm box" />= "blue"-->
+    </div>
+
+
+
     <!--
     <section class="LOGO-TOP-IMAGE">-->
     <!--<dev class="Vishal-Logo-Image"><img src="./Images/download.jpg" alt="Logo"></dev></section>-->
@@ -47,6 +101,7 @@
         </div>
         <div id="my-pie-chart"></div>
     </div>
+
 
 
 

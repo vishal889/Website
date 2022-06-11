@@ -381,12 +381,70 @@ label #cancel {
 
 @media (max-width: 860px) {
     .FULL-PAGE img {
-        width: 30%;
+        margin-top: 5%;
+        margin-left: 35%;
+        margin-right: 25%;
+        box-shadow: 10px 10px;
+        background-color: aqua;
+        background-image: url("../Images/download.jpg");
+        box-shadow: brown;
+        width: 50%;
         align-items: center;
         color: #002E63;
-        border: 5px rgb(0, 0, 0);
+        border: 7px double rgb(5, 5, 5);
         border-radius: 50%;
-        left: 10%;
+        right: 30%;
+        border-color: black;
+    }
+    label #btn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0, 0, 0);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 17px;
+        font-size: 20px;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    #check:checked~label #btn {
+        display: none;
+    }
+    #check:checked~label #cancel {
+        display: block;
+    }
+}
+
+@media (max-width: 300px) {
+    .FULL-PAGE img {
+        margin-top: 5%;
+        margin-left: 35%;
+        margin-right: 25%;
+        box-shadow: 10px 10px;
+        background-color: aqua;
+        background-image: url("../Images/download.jpg");
+        box-shadow: brown;
+        width: 50%;
+        align-items: center;
+        color: #002E63;
+        border: 7px double rgb(5, 5, 5);
+        border-radius: 50%;
+        right: 30%;
+        border-color: black;
     }
     label #btn {
         display: block;

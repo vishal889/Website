@@ -89,3 +89,11 @@
 .p {
     background-color: #e70000;
 }
+
+.Night1 {
+    border-radius: 40px;
+    box-shadow: 2px 2px 50px 10px #9c7fec;
+    background-color: aqua;
+    color: black;
+    font-size: medium;
+}

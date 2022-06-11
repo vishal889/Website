@@ -222,9 +222,9 @@ nav ul li a {
 /* The element to apply the animation to */
 
 .FULL-PAGE img {
-    margin-left: 25%;
+    margin-top: 5%;
+    margin-left: 35%;
     margin-right: 25%;
-    box-shadow: 10px 10px;
     background-color: aqua;
     background-image: url("../Images/download.jpg");
     box-shadow: brown;
@@ -343,7 +343,6 @@ label #cancel {
         margin-top: 5%;
         margin-left: 35%;
         margin-right: 25%;
-        box-shadow: 10px 10px;
         background-color: aqua;
         background-image: url("../Images/download.jpg");
         box-shadow: brown;
@@ -365,7 +364,6 @@ label #cancel {
         margin-top: 5%;
         margin-left: 35%;
         margin-right: 25%;
-        box-shadow: 10px 10px;
         background-color: aqua;
         background-image: url("../Images/download.jpg");
         box-shadow: brown;
@@ -392,11 +390,10 @@ label #cancel {
         margin-top: 5%;
         margin-left: 35%;
         margin-right: 25%;
-        box-shadow: 10px 10px;
         background-color: aqua;
         background-image: url("../Images/download.jpg");
         box-shadow: brown;
-        width: 50%;
+        width: 30%;
         align-items: center;
         color: #002E63;
         border: 7px double rgb(5, 5, 5);
@@ -442,11 +439,10 @@ label #cancel {
         margin-top: 5%;
         margin-left: 35%;
         margin-right: 25%;
-        box-shadow: 10px 10px;
         background-color: aqua;
         background-image: url("../Images/download.jpg");
         box-shadow: brown;
-        width: 50%;
+        width: 30%;
         align-items: center;
         color: #002E63;
         border: 7px double rgb(5, 5, 5);

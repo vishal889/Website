@@ -1,27 +1,16 @@
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
-}
-
-
-/* Links inside the navbar */
-
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
 /* The dropdown container */
+
+.gimg1 {
+    width: 20%;
+    background-color: #00000000;
+    color: #00000000;
+}
 
 .dropdown {
     float: left;
-    overflow: hidden;
+    margin: 0%;
+    margin-right: 1vh;
+    margin-top: 5%;
 }
 
 
@@ -32,20 +21,24 @@
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 4px 6px;
     background-color: inherit;
     font-family: inherit;
-    /* Important for vertical align on mobile phones */
     margin: 0;
-    /* Important for vertical align on mobile phones */
+    width: auto;
+    border-radius: 20px;
+    border: #000000 solid;
+    box-shadow: -1px -1px;
+    box-shadow: #e70000;
+    color: #dbc9c9;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
 }
-
-
-/* Add a red background color to navbar links on hover */
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgba(103, 7, 122, 0.822);
 }
 
 
@@ -54,8 +47,8 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    background-color: #00000000;
+    max-width: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -72,11 +65,18 @@
     text-align: left;
 }
 
-
-/* Add a grey background color to dropdown links on hover */
+.dropdown-content p {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    box-shadow: #e70000;
+}
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgb(255, 0, 0);
 }
 
 
@@ -84,4 +84,8 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.p {
+    background-color: #e70000;
 }

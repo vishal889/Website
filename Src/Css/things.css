@@ -48,8 +48,9 @@
 }
 
 .head1 {
+    text-shadow: #9c7fec;
     text-align: center;
-    color: #ffffff;
+    color: wheat;
 }
 
 @media screen and (max-width: 600px) {
